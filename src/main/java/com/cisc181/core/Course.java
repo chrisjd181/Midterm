@@ -7,6 +7,15 @@ public class Course{
 		private UUID CourseID;
 		private String CourseName;
 		private int GradePoints;
+		
+		public Course(String CourseName, int Gradepoints){
+			this.CourseID=UUID.randomUUID();
+			
+			this.CourseName=CourseName;
+			
+			this.GradePoints=GradePoints;
+		}
+		
 		public UUID getCourseID() {
 			return CourseID;
 		}

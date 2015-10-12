@@ -37,7 +37,7 @@ public class Enrollment {
 	}
 	public Enrollment(UUID StudentID,UUID SectionID)
 	{
-		this.EnrollmentID=EnrollmentID;
+		this.EnrollmentID=UUID.randomUUID();
 	}
 }
 
